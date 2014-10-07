@@ -11,3 +11,5 @@ default:
 
 endif
 
+clean:
+	rm -f modules.order Module.symvers ptp_fake.mod.c *.ko *.o
